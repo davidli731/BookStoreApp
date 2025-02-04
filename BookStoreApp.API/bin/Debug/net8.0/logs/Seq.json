@@ -1,0 +1,93 @@
+{
+  "api": {
+    "canonicalUri": null,
+    "corsAllowedOrigins": [],
+    "frameAncestors": [],
+    "hardSessionExpirySeconds": null,
+    "hstsIncludeSubDomains": false,
+    "hstsMaxAge": 31536000,
+    "idleSessionExpirySeconds": 172800,
+    "ingestionPort": null,
+    "integratedAuthenticationScheme": null,
+    "listenUris": [
+      "http://localhost:5341/"
+    ],
+    "redirectHttpToHttps": false,
+    "minRequestBodyDataRateBytesPerSecond": 240.0,
+    "minRequestBodyDataRateGracePeriodMilliseconds": 5000,
+    "webServer": "Kestrel",
+    "globalRateLimit": null,
+    "globalQueueLimit": null,
+    "ingestRateLimit": null,
+    "ingestQueueLimit": null,
+    "queryRateLimit": null,
+    "queryQueueLimit": null
+  },
+  "appHost": {
+    "installPolicy": null,
+    "executionPolicy": null
+  },
+  "audit": {
+    "auditServerUrl": null,
+    "auditServerApiKey": null,
+    "auditPath": null
+  },
+  "certificates": {
+    "certificatesPath": null,
+    "defaultPassword": null
+  },
+  "diagnostics": {
+    "internalLogPath": "C:\\ProgramData\\Seq\\Logs",
+    "internalLoggingLevel": "Information",
+    "internalLogServerApiKey": null,
+    "internalLogServerUrl": null,
+    "metricsSamplingIntervalSeconds": 300,
+    "nativeStorageMetricsSamplingIntervalMinutes": 60,
+    "telemetryServerUrl": null
+  },
+  "features": {
+    "enabled": []
+  },
+  "firstRun": {
+    "adminPasswordHash": "QIxWTWO2ySfgZyx6zNVzgqBGncHsZOBbo+ph2xPQl5uMprpfputemw+CAeUdjAPkrpdXW11+Z9L9+jJFx3vuMuC7csvhfhY64NzmjmtLfojX",
+    "adminPassword": null,
+    "adminUsername": "admin",
+    "requireAuthenticationForHttpIngestion": false
+  },
+  "metastore": {
+    "msSql": {
+      "connectionString": null,
+      "msiResource": null,
+      "msiTenantId": null,
+      "schema": null
+    },
+    "postgres": {
+      "connectionString": null,
+      "schema": null
+    }
+  },
+  "process": {
+    "workingSetLimitBytes": null
+  },
+  "runtime": {
+    "expressionNestingLimit": null,
+    "nativeExpressionNestingLimit": null
+  },
+  "secretKey": {
+    "provider": null,
+    "providerArgs": null
+  },
+  "services": {
+    "servicesBaseUri": null
+  },
+  "storage": {
+    "secretKey": "pmk.AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAZ75ub6tvV0uo0cr8h1FOwAQAAAACAAAAAAAQZgAAAAEAACAAAADHEI40KYg6ICURF9jwj/Qdqmfwc1mUSFP//7GsvtbyVQAAAAAOgAAAAAIAACAAAAAxRM0KqB2RNni51V86CoOVTTquUAiasTOc3MqALK079jAAAACcDgbpMzGj/9l1ZJuW6VAEqmwE48P7Un9rE+rWYLYIAkL48hLxyiIHtgFpaxTsLDpAAAAASyoYKRuYzitw43z/b4haCJgmpbYcKlmfJZY/AnB9fLJhiwuW0xDkCDIKEPO1FovOK99OhHL2JlKGeA/fCqIwLQ==$m2kohfUdzgS3MkDez+OSxA==",
+    "flare": {
+      "concurrentReaderLimit": null,
+      "readerParallelismLimit": null,
+      "indexerPriority": 0.0
+    },
+    "disableFreeDiskSpaceChecking": false,
+    "maximumFutureTimestampDriftSeconds": 3420
+  }
+}
