@@ -1,3 +1,4 @@
 .vs/
 /BookStoreApp.API/obj
 /BookStoreApp.API/bin
+/BookStoreApp.API/logs
